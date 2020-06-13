@@ -85,3 +85,15 @@ if __name__ == '__main__':
     main()
 
 ```
+
+`config.py`
+```python
+class Config:
+    Host='127.0.0.1'
+    Port=8080
+    Name='Zinx Server'
+
+    Version='ipv4'
+    MaxConn=1
+
+```
